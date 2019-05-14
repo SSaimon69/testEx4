@@ -1,0 +1,27 @@
+td {
+	border: 1px solid gray;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+
+table td {
+	
+	width:50px;
+	height: 50px;
+}
+
+td:first-of-type, td:last-of-type{
+	width: 15px;
+	border: none;
+	text-align:center;
+}
+
+
+.topHeader, .bottomHeader{
+	height: 15px;
+	border: none;
+	text-align:center;
+}
